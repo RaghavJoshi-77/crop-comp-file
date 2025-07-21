@@ -9,6 +9,12 @@ const socialFormats = {
     "Twitter Post (16:9)": { width: 1200, height: 675, aspectRatio: "16:9" },
     "Twitter Header (3:1)": { width: 1500, height: 500, aspectRatio: "3:1" },
     "Facebook Cover (205:78)": { width: 820, height: 312, aspectRatio: "205:78" },
+    "LinkedIn Square Post (1:1)": { width: 1080, height: 1080, aspectRatio: "1:1" },
+    "LinkedIn Article Banner (1200:627)": { width: 1200, height: 627, aspectRatio: "1200:627" },
+    "LinkedIn Profile Picture (400:400)": { width: 400, height: 400, aspectRatio: "1:1" },
+    "YouTube Thumbnail (16:9)": { width: 1280, height: 720, aspectRatio: "16:9" },
+    "YouTube Channel Cover (2560:1440)": { width: 2560, height: 1440, aspectRatio: "16:9" },
+    "YouTube Profile Picture (1:1)": { width: 800, height: 800, aspectRatio: "1:1" }
   };
 
 type SocialFormat = keyof typeof socialFormats

@@ -30,7 +30,8 @@ export async function POST (request:NextRequest ){
         }
 
         const bytes = await file.arrayBuffer()
-        //we cant upload arraybuffer directly we have to upload buffer         
+        //we cant upload arraybuffer directly we have to upload buffer   
+        //remember that arraybuffer is not same as buffer and it is used in browser and node uses buffer so we have to convert it      
         const buffer = Buffer.from(bytes)
 
         const result = await new Promise <CloudinaryUploadResult>(
