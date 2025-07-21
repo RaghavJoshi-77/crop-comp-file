@@ -1,5 +1,5 @@
-##Crop & Compress
-#Project Overview
+Crop & Compress
+Project Overview
 Crop & Compress is a robust web application designed to streamline the process of preparing media for various platforms. It allows users to effortlessly crop images into specific aspect ratios suitable for social media like Twitter and other custom formats. Beyond image manipulation, the application also provides efficient video compression, ensuring optimal file sizes without compromising quality.
 
 This project leverages modern web technologies to deliver a smooth and secure user experience, incorporating Cloudinary for media management and Next.js for a powerful and scalable frontend, complemented by Clerk for secure user authentication.
