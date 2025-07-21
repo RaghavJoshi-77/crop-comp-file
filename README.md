@@ -1,5 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Crop & Compress
+Project Overview
+Crop & Compress is a robust web application designed to streamline the process of preparing media for various platforms. It allows users to effortlessly crop images into specific aspect ratios suitable for social media like Twitter and other custom formats. Beyond image manipulation, the application also provides efficient video compression, ensuring optimal file sizes without compromising quality.
 
+This project leverages modern web technologies to deliver a smooth and secure user experience, incorporating Cloudinary for media management and Next.js for a powerful and scalable frontend, complemented by Clerk for secure user authentication.
+
+Features
+Versatile Image Cropping: Crop images to predefined aspect ratios (e.g., Twitter header, profile picture) and custom dimensions.
+
+Efficient Video Compression: Reduce video file sizes for faster uploads and improved performance.
+
+Cloudinary Integration: Seamlessly upload, manage, and transform media files using Cloudinary's powerful cloud infrastructure.
+
+Secure User Authentication: Powered by Clerk, ensuring secure user login and data protection.
+
+Responsive User Interface: Built with Next.js, providing a fast, modern, and responsive interface across various devices.
+
+Technologies Used
+Next.js: A React framework for building server-side rendered and static web applications.
+
+Cloudinary: A cloud-based media management platform for image and video manipulation, optimization, and delivery.
+
+Clerk: A comprehensive user authentication and management solution.
 ## Getting Started
 
 First, run the development server:
@@ -29,9 +50,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # crop-comp-file
