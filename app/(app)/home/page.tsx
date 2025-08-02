@@ -50,7 +50,9 @@ function Home() {
   
     
     if(loading){
-        return <div>Loading...</div>
+        return <div>
+          Loading<span className="loading loading-dots loading-sm"></span><span className="loading loading-infinity loading-xl"></span>
+          </div>
     }
 
     return (
