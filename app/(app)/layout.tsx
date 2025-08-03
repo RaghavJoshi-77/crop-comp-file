@@ -58,7 +58,7 @@ export default function AppLayout({
             <div className="flex-none lg:hidden">
               <label
                 htmlFor="sidebar-drawer"
-                className="btn btn-square btn-ghost drawer-button"
+                className="btn-neutral btn-square btn-ghost drawer-button"
               >
                 <MenuIcon />
               </label>
@@ -88,7 +88,7 @@ export default function AppLayout({
                   </span>
                   <button
                     onClick={handleSignOut}
-                    className="btn btn-ghost btn-circle"
+                    className="btn-default btn-ghost btn-circle"
                   >
                     <LogOutIcon className="h-6 w-6" />
                   </button>
@@ -108,7 +108,7 @@ export default function AppLayout({
         <label htmlFor="sidebar-drawer" className="drawer-overlay"></label>
         <aside className="bg-base-200 w-64 h-full flex flex-col">
           <div className="flex items-center justify-center py-4">
-            <ImageIcon className="w-10 h-10 text-primary" />
+            <ImageIcon className="w-10 h-10 text-[#BD7A00]" />
           </div>
           <ul className="menu p-4 w-full text-base-content flex-grow">
             {sidebarItems.map((item) => (
@@ -117,8 +117,8 @@ export default function AppLayout({
                   href={item.href}
                   className={`flex items-center space-x-4 px-4 py-2 rounded-lg ${
                     pathname === item.href
-                      ? "bg-primary text-white"
-                      : "hover:bg-base-300"
+                      ? "bg-[#BD7A00] text-white"
+                      : "hover:bg-base-100"
                   }`}
                   onClick={() => setSidebarOpen(false)}
                 >

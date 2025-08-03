@@ -91,7 +91,7 @@ export default function VideoUpload() {
             </div>
             <button
               type="submit"
-              className="btn btn-primary"
+              className="btn btn-neutral"
               disabled={isUploading}
             >
               {isUploading ? "Uploading..." : "Upload Video"}

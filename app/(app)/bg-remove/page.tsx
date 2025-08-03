@@ -88,7 +88,7 @@ const handleDownload = async () => {
                         <input 
                             type="file" 
                             onChange={handleFileUpload}
-                            className='file-input file-input-bordered file-input-primary w-full'
+                            className='file-input file-input-bordered file-input-accent w-full'
                             accept="image/*"
                         />
                         {isUploading && (
@@ -105,7 +105,7 @@ const handleDownload = async () => {
                                 <h2 className='text-xl font-semibold'>Result</h2>
                                 <button 
                                     onClick={handleDownload}
-                                    className='btn btn-primary'
+                                    className='btn btn-accent'
                                     disabled={isTransforming}
                                 >
                                     Download Image

@@ -104,7 +104,7 @@ export default  function SocialShare() {
                 <input
                   type="file"
                   onChange={handleFileUpload}
-                  className="file-input file-input-bordered file-input-primary w-full"
+                  className="file-input file-input-bordered file-input-accent w-full"
                 />
               </div>
 

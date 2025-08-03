@@ -1,5 +1,5 @@
 import { SignIn } from '@clerk/nextjs'
-import { neobrutalism } from '@clerk/themes'
+import { neobrutalism,dark,shadesOfPurple } from '@clerk/themes'
 // basic styling karde 
 export default function Page() {
   return (

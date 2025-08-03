@@ -84,7 +84,7 @@ const  VideoCard: React.FC<VideoCardProps> = ({video, onDownload}) => {
             {isHovered ? (
               previewError ? (
                 <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                  <p className="text-red-500">Preview not available</p>
+                  <p className="text-[#BD7A00]">Preview not available</p>
                 </div>
               ) : (
                 <video
@@ -118,7 +118,7 @@ const  VideoCard: React.FC<VideoCardProps> = ({video, onDownload}) => {
             </p>
             <div className="grid grid-cols-2 gap-4 text-sm">
               <div className="flex items-center">
-                <FileUp size={18} className="mr-2 text-primary" />
+                <FileUp size={18} className="mr-2 text-[#BD7A00]" />
                 <div>
                   <div className="font-semibold">Original</div>
                   <div>{formatSize(Number(video.originalSize))}</div>
