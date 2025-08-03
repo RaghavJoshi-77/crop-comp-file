@@ -86,6 +86,10 @@ export default  function SocialShare() {
         })
     }
     return (
+            <head>
+        <title>Welcome to Crop-Comp-File</title>
+        <meta name="description" content="This is website which lets you crop images, remove their background and compress the video with " />
+        <meta name="keywords" content="Compression, nextjs , Crop, background remove , clerk, cloudinary"/>
         <div className="container mx-auto p-4 max-w-4xl">
           <h1 className="text-3xl font-bold mb-6 text-center">
             Social Media Image Creator
@@ -163,6 +167,7 @@ export default  function SocialShare() {
             </div>
           </div>
         </div>
+        </head>
       );
 }
 

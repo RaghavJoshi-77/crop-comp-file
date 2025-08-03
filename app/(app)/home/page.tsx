@@ -56,6 +56,10 @@ function Home() {
     }
 
     return (
+      <head>
+        <title>Welcome to Crop-Comp-File</title>
+        <meta name="description" content="This is website which lets you crop images, remove their background and compress the video with " />
+        <meta name="keywords" content="Compression, nextjs , Crop, background remove , clerk, cloudinary"/>
         <div className="container mx-auto p-4">
           <h1 className="text-2xl font-bold mb-4">Videos</h1>
           {videos.length === 0 ? (
@@ -76,6 +80,7 @@ function Home() {
             </div>
           )}
         </div>
+        </head>
       );
 }
 
