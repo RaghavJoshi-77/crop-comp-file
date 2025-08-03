@@ -4,7 +4,7 @@ import "./globals.css";
 import {
   ClerkProvider,
 } from '@clerk/nextjs'
-
+import Head from "next/head";
 
 
 export default function RootLayout({
@@ -15,6 +15,11 @@ export default function RootLayout({
   return (
     <ClerkProvider>
     <html lang="en">
+            <Head>
+              <title>Welcome to Crop-Comp-File</title>
+              <meta name="description" content="This is website which lets you crop images, remove their background and compress the video with " />
+              <meta name="keywords" content="Compression, nextjs , Crop, background remove , clerk, cloudinary"/>
+            </Head>
       <body>
         {children}
       </body>

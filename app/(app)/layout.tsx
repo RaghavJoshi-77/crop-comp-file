@@ -42,10 +42,7 @@ export default function AppLayout({
 
   return (
     <>
-          <head>
-        <title>Welcome to Crop-Comp-File</title>
-        <meta name="description" content="This is website which lets you crop images, remove their background and compress the video with " />
-        <meta name="keywords" content="Compression, nextjs , Crop, background remove , clerk, cloudinary"/>
+
     <div className="drawer lg:drawer-open">
       <input
         id="sidebar-drawer"
@@ -203,7 +200,7 @@ export default function AppLayout({
     </div>
   </nav>
 </footer>
-</head>
+
     </>
   );
 }

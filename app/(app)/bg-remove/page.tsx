@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { CldImage } from 'next-cloudinary';
 
+
 export default function BgRemove() {
     const [uploadedImage, setUploadedImage] = useState<string | null>(null);
     const [isTransforming, setIsTransforming] = useState(false);
@@ -74,10 +75,7 @@ const handleDownload = async () => {
 };
 
     return (
-    <head>
-        <title>Welcome to Crop-Comp-File</title>
-        <meta name="description" content="This is website which lets you crop images, remove their background and compress the video with " />
-        <meta name="keywords" content="Compression, nextjs , Crop, background remove , clerk, cloudinary"/>
+        
         <div className='container mx-auto p-4 max-w-4xl'>
             <h1 className='text-3xl font-bold mb-6 text-center'>Background Remover</h1>
             <div className='card'>
@@ -137,6 +135,6 @@ const handleDownload = async () => {
                 </div>
             </div>
         </div>
-    </head>
+    
     );
 }
