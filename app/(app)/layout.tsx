@@ -12,13 +12,15 @@ import {
   UploadIcon,
   ImageIcon,
   Eraser,
+  Crop,
 } from "lucide-react";
 
 const sidebarItems = [
   { href: "/home", icon: LayoutDashboardIcon, label: "Home Page" },
   { href: "/social-share", icon: Share2Icon, label: "Social Share" },
   { href: "/video-upload", icon: UploadIcon, label: "Video Upload" },
-  {href:"/bg-remove", icon:Eraser , label:"Background Remover"}
+  {href:"/bg-remove", icon:Eraser , label:"Background Remover"},
+  {href:"/add-logo", icon: Crop, label: "Add Logo" }
 ];
 
 export default function AppLayout({

@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import axios from "axios"
 import { useRouter } from 'next/navigation'
-import { error } from 'console'
+
 
 
 
@@ -17,13 +17,17 @@ export default function VideoUpload() {
 
   //to define max file size 
   const MAX_FILE_SIZE = 80 * 1024 * 1024
+  
+
+
+  
 
   const handelSubmit = async (e:React.FormEvent) =>{
     e.preventDefault()
     if (!file) {
       return 
     }
-    if (MAX_FILE_SIZE < file.size) {
+    if (file.size > MAX_FILE_SIZE) {
       alert ("file is beyond the size of 80 mb")
     }
 
@@ -84,7 +88,7 @@ export default function VideoUpload() {
               <input
                 type="file"
                 accept="video/*"
-                onChange={(e) => setFile(e.target.files?.[0] || null)}
+                onChange={(e) => setFile(e.target.files?.[0] || null)}            
                 className="file-input file-input-bordered w-full"
                 required
               />
