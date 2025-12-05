@@ -20,7 +20,8 @@ const sidebarItems = [
   { href: "/social-share", icon: Share2Icon, label: "Social Share" },
   { href: "/video-upload", icon: UploadIcon, label: "Video Upload" },
   {href:"/bg-remove", icon:Eraser , label:"Background Remover"},
-  {href:"/add-logo", icon: Crop, label: "Add Logo" }
+  {href:"/add-logo", icon: Crop, label: "Add Logo" },
+  { href: "/ai-magic", icon: ImageIcon, label: "AI Magic" },
 ];
 
 export default function AppLayout({
