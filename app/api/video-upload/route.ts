@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 import { v2 as cloudinary } from "cloudinary";
-import { PrismaClient } from "../../generated/prisma";
+import { PrismaClient } from "@/generated/prisma";
 
 //this is for video upload ka title and all 
 const prisma = new PrismaClient()

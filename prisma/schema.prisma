@@ -11,16 +11,17 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Video {
-  id String @id @default(cuid())
-  title String 
-  description String? //this means it is optional 
-  publicId String //give by cloudinary to uniquely identify videos 
-  originalSize String
+  id             String   @id @default(cuid())
+  title          String
+  description    String? //this means it is optional 
+  publicId       String //give by cloudinary to uniquely identify videos 
+  originalSize   String
   compressedSize String
-  duration Float
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  duration       Float
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
 }
